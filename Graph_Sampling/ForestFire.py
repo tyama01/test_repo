@@ -41,4 +41,4 @@ class ForestFire():
                 random_node = random.sample(set(list_nodes) and dictt, 1)[0]
                 q.add(random_node)
         q.clear()
-        return self.G1
+        return list(self.G1.nodes)
